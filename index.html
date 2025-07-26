@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inloggen | Somtoday</title>
+  <link rel="icon" href="img/brand_somtoday_icon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login">
+    <img src="img/brand_somtoday_logo.svg" alt="Somtoday logo" style="width:150px; display:block; margin-bottom: 10px; user-select: none;" oncontextmenu="return false"/>
+    <h1>Inloggen</h1>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="E-mailadres" required />
+      <input type="password" id="password" placeholder="Wachtwoord" required />
+      <label><input type="checkbox" id="togglePassword" /> Wachtwoord tonen</label>
+      <button type="submit">Inloggen</button>
+      <p id="status"></p>
+    </form>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

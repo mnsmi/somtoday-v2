@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Somtoday</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="dbstyle.css" />
+  <link rel="icon" href="img/brand_somtoday_icon.svg" />
+  <script type="module" src="dashboard.js"></script>
+</head>
+<body>
+<div id="custom-loader">
+  <div class="loading-wave">
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+    <div class="loading-bar"></div>
+  </div>
+</div>
+  <header>
+    <div>
+      <img src="img/brand_somtoday_logo_white.svg" style="width: 300px; height: 60px;" alt="Somtoday logo" draggable="false"/>
+    </div>
+    <div class="user-info">
+      <i class="bi bi-person-fill"></i>
+      <span id="userEmail"s></span>
+      <a href="index.html" id="logoutBtn" title="Uitloggen"><i class="bi bi-box-arrow-right"></i> Uitloggen</a>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="sidebar">
+      <a href="#rooster"><i class="bi bi-calendar-event-fill"></i> Rooster</a>
+      <a href="#huiswerk"><i class="bi bi-book-half"></i> Huiswerk</a>
+      <a href="#berichten"><i class="bi bi-envelope-fill"></i> Berichten</a>
+      <a href="#instellingen"><i class="bi bi-gear-fill"></i> Instellingen</a>
+    </div>
+
+    <div class="content">
+    <section id="rooster" class="page-section">
+        <h1>Rooster</h1>
+        <br>
+        <table>
+    <thead>
+      <tr>
+        <th>Week 1</th>
+        <th class="hour">1</th>
+        <th class="hour">2</th>
+        <th class="hour">3</th>
+        <th class="hour">4</th>
+        <th class="hour">5</th>
+        <th class="hour">6</th>
+        <th class="hour">7</th>
+        <th class="hour">8</th>
+        <th class="hour">9</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td>Maandag</td>
+  <td>
+    Wiskunde<br />
+    Jansen<br />
+    101
+  </td>
+  <td>
+    Engels<br />
+    De Vries<br />
+    204
+  </td>
+  <td>
+    Natuurkunde<br />
+    Meijer<br />
+    305
+  </td>
+  <td>
+    Biologie<br />
+    Visser<br />
+    102
+  </td>
+  <td>
+    Geschiedenis<br />
+    Bakker<br />
+    206
+  </td>
+  <td>
+    Frans<br />
+    Smit<br />
+    307
+  </td>
+  <td>
+    Scheikunde<br />
+    Hermans<br />
+    208
+  </td>
+  <td>
+    Duits<br />
+    Jansen<br />
+    309
+  </td>
+  <td>
+    Aardrijkskunde<br />
+    Visser<br />
+    104
+  </td>
+</tr>
+<tr>
+  <td>Dinsdag</td>
+  <td>
+    Tekenen<br />
+    De Wit<br />
+    210
+  </td>
+  <td>
+    Lichamelijke Opvoeding<br />
+    Mulder<br />
+    311
+  </td>
+  <td>
+    Informatica<br />
+    Brouwer<br />
+    105
+  </td>
+  <td>
+    Filosofie<br />
+    Smits<br />
+    212
+  </td>
+  <td>
+    Muziek<br />
+    Peeters<br />
+    313
+  </td>
+  <td>
+    Latijn<br />
+    Vos<br />
+    106
+  </td>
+  <td>
+    Gymnastiek<br />
+    Meijer<br />
+    214
+  </td>
+  <td>
+    Techniek<br />
+    Janssen<br />
+    315
+  </td>
+  <td>
+    Rekenen<br />
+    Koster<br />
+    103
+  </td>
+</tr>
+<tr>
+  <td>Woensdag</td>
+  <td>
+    Wiskunde<br />
+    Jansen<br />
+    101
+  </td>
+  <td>
+    Engels<br />
+    De Vries<br />
+    204
+  </td>
+  <td>
+    Natuurkunde<br />
+    Meijer<br />
+    305
+  </td>
+  <td>
+    Biologie<br />
+    Visser<br />
+    102
+  </td>
+  <td>
+    Geschiedenis<br />
+    Bakker<br />
+    206
+  </td>
+  <td>
+    Frans<br />
+    Smit<br />
+    307
+  </td>
+  <td>
+    Scheikunde<br />
+    Hermans<br />
+    208
+  </td>
+  <td>
+    Duits<br />
+    Jansen<br />
+    309
+  </td>
+  <td>
+    Aardrijkskunde<br />
+    Visser<br />
+    104
+  </td>
+</tr>
+<tr>
+  <td>Donderdag</td>
+  <td>
+    Tekenen<br />
+    De Wit<br />
+    210
+  </td>
+  <td>
+    Lichamelijke Opvoeding<br />
+    Mulder<br />
+    311
+  </td>
+  <td>
+    Informatica<br />
+    Brouwer<br />
+    105
+  </td>
+  <td>
+    Filosofie<br />
+    Smits<br />
+    212
+  </td>
+  <td>
+    Muziek<br />
+    Peeters<br />
+    313
+  </td>
+  <td>
+    Latijn<br />
+    Vos<br />
+    106
+  </td>
+  <td>
+    Gymnastiek<br />
+    Meijer<br />
+    214
+  </td>
+  <td>
+    Techniek<br />
+    Janssen<br />
+    315
+  </td>
+  <td>
+    Rekenen<br />
+    Koster<br />
+    103
+  </td>
+</tr>
+<tr>
+  <td>Vrijdag</td>
+  <td>
+    Wiskunde<br />
+    Jansen<br />
+    101
+  </td>
+  <td>
+    Engels<br />
+    De Vries<br />
+    204
+  </td>
+  <td>
+    Natuurkunde<br />
+    Meijer<br />
+    305
+  </td>
+  <td>
+    Biologie<br />
+    Visser<br />
+    102
+  </td>
+  <td>
+    Geschiedenis<br />
+    Bakker<br />
+    206
+  </td>
+  <td>
+    Frans<br />
+    Smit<br />
+    307
+  </td>
+  <td>
+    Scheikunde<br />
+    Hermans<br />
+    208
+  </td>
+  <td>
+    Duits<br />
+    Jansen<br />
+    309
+  </td>
+  <td>
+    Aardrijkskunde<br />
+    Visser<br />
+    104
+  </td>
+</tr>
+    </tbody>
+  </table>
+      </section>
+
+      <section id="huiswerk" class="page-section" style="display: none;">
+  <h1>Huiswerk</h1>
+  <div class="huiswerk-grid">
+    <div class="dag"><h3>Maandag</h3>
+      <div class="vakje" data-vak="Wiskunde" data-info="Hoofdstuk 4: maak opgave 4-7.">Wiskunde</div>
+      <div class="vakje" data-vak="Engels" data-info="Study: BU 31-32 Do: Workboot page 52, exercise 1 and 2">Engels</div>
+      <div class="vakje" data-vak="Nederlands" data-info="Maak opdracht 3.16 en 3.16 en leer de spreekwoorden alvast voor de SO.">Nederlands</div>
+    </div>
+    <div class="dag"><h3>Dinsdag</h3>
+      <div class="vakje" data-vak="Biologie" data-info="7.4 Maak opdr. 3,5,6,7,9,11,12.">Biologie</div>
+    </div>
+    <div class="dag"><h3>Woensdag</h3>
+      <div class="vakje" data-vak="Natuurkunde" data-info="Praticum H3 'Water'.">Natuurkunde</div>
+    </div>
+    <div class="dag"><h3>Donderdag</h3>
+      <div class="vakje" data-vak="Frans" data-info="Lire: p.23 Faire: ex.26ab">Frans</div>
+    </div>
+    <div class="dag"><h3>Vrijdag</h3>
+      <div class="vakje" data-vak="Aardrijkskunde" data-info="TOETS: Topografie Europa.">Aardrijkskunde</div>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h2 id="popup-vak"></h2>
+      <p id="popup-info"></p>
+      <label class="popuplabel"><input type="checkbox" id="afgerond-checkbox" /> Afgerond</label><br><br>
+      <button class="popupbtn" onclick="sluitPopup()">Sluiten</button>
+    </div>
+  </div>
+</section>
+      <section id="berichten" class="page-section" style="display: none;">
+        <h1>Berichten</h1>
+        <p>Je berichten verschijnen hier.</p>
+      </section>
+
+      <section id="instellingen" class="page-section" style="display: none;">
+        <h1>Instellingen</h1>
+        <h3>Account</h3>
+        <p id="account-info">Je bent ingelogd als: <span id="accountEmail"></span></p>
+          <button class="popupbtn" onclick="location.href='index.html'">Uitloggen</button>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
