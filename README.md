@@ -1,2 +1,9 @@
-# Somtoday
-I tried to make a version 2 of Somtoday.
+<a href="#"><img src=/img/v2.svg width="80" align="left"/></a>
+
+
+# 🇬🇧 Somtoday v2
+
+I have tried to make a demo for the version 2 of Somtoday.
+Request login information by using <a href="request.html">this</a> form.
+
+<a hre
