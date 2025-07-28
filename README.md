@@ -1,4 +1,4 @@
-<a href="#"><img src=/img/v2.svg width="80" align="left"/></a>
+<a href="#"><img src=/img/v2.svg width="70" align="left"/></a>
 
 
 # 🇬🇧 Somtoday v2
